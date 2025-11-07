@@ -2,7 +2,7 @@
 
 # API ESCOLA
 
-Este é o repositório para o projeto de API de uma Escola feito em Django REST Framework. Para saber mais informações, acesse o [Trello do Projeto](https://trello.com/b/UDG9sitg/django-rest-framework-escola-curso-02).
+Este é o repositório para o projeto de API de uma Escola feito em Django REST Framework. Para saber mais informações, acesse o [Trello do Projeto](https://trello.com/b/MUyjNhdF/django-rest-framework-escola-curso-03).
 
 ## Configuração do Ambiente Virtual (venv)
 
@@ -60,3 +60,11 @@ python manage.py runserver
 
 Isso iniciará o servidor de desenvolvimento em `http://localhost:8000/`. Você pode acessar este URL em seu navegador para interagir com a API.
 
+## Script para Popular o Banco de Dados
+
+Para executar, basta abrir o terminal no diretório de sua aplicação e digitar os comandos:
+```
+python popular_banco_cursos.py
+python popular_banco_estudantes.py
+```
+E prontinho! Cursos e Estudantes foram criados :) Crie uma matrícula no API Root ou ThunderClient para testar a aplicação!
